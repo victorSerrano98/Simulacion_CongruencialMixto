@@ -40,6 +40,8 @@ public class CongruencialMixto {
         //Seleccion de c
         double c = primo_Cercano(m);
         JOptionPane.showMessageDialog(null, "E l valor de c es : " + c);
+        
+        
         double aux = x;
         System.out.println("n" + "\t\t" + "X" + "\t\t" + "(ax+c)/m" + "\t\t" + "X" + "\t\t" + "Numeros Uniformes");
         for (int i = 0; i < m; i++) {
